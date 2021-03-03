@@ -87,6 +87,5 @@ def dingTalk():
 
 if __name__ == '__main__':
     get_notice_price()
-    global send_ding_falg
     if send_ding_falg:
         dingTalk()
